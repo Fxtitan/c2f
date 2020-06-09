@@ -2,6 +2,47 @@
  * Your code here!
  ******************************************************************************/
 
+// fromCelsiusToFahrenheit = (anyNum) => {
+//   if(anyNum === 0) {
+//     return 32;
+//   }
+
+//   if(anyNum === 100) {
+//     return 212;
+//   }
+
+//   if(anyNum === 5) {
+//     return 41;
+//   }
+// }
+
+// fromCelsiusToFahrenheit();
+// console.log('The answer is')
+// console.log(fromCelsiusToFahrenheit(0))
+// console.log('I think I did this right 🤷🏾‍♂️')
+// console.log(fromCelsiusToFahrenheit(100))
+// console.log('The answer is really')
+// console.log(fromCelsiusToFahrenheit(5))
+
+const returnedValue = getInput(0);
+
+fromCelsiusToFahrenheit = (anyNum) => {
+  let F = (anyNum * 9/5) + 32
+  return console.log(F);
+}
+fromCelsiusToFahrenheit(returnedValue);
+
+// I have to use git
+
+
+
+
+
+
+
+
+
+
 
 
 
